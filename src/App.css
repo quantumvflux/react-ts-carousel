@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  width: 500px;
+  height: 600px;
+}
+.carousel-container > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+}
